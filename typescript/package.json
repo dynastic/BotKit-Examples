@@ -1,0 +1,18 @@
+{
+  "name": "botkit-ts-example",
+  "version": "1.0.0",
+  "description": "botkit typescript example",
+  "main": "out/index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "tsc -p . && node dist/index.js"
+  },
+  "author": "Eric Rabil <eric@dynastic.co>",
+  "license": "MIT",
+  "dependencies": {
+    "dd-botkit": "1.0.66",
+    "discord.js": "^11.4.2",
+    "pg": "^7.7.1",
+    "typeorm": "^0.2.7"
+  }
+}
